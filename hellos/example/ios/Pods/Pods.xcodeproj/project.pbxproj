@@ -1,0 +1,1435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 94078A06C17E946ADC1F2C06726219E5 /* Build configuration list for PBXAggregateTarget "Flutter" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = Flutter;
+			productName = Flutter;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		01A60492B6FDF26AFCDEC62F7F000859 /* network.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 880BF5D9BABBB61ABD4FC29D1060609F /* network.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		01E500C1BFFBEDCD4566844178B8B816 /* endpoint.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F484603277C09A9CBE5C5BB13E93796B /* endpoint.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		045004DE1774AB2CA73F5DE5DB454131 /* tls.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 1A5BE123891145E260A55ABF9B14E3F5 /* tls.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		0537CB5BE1E282A1F2D378901B1C71F6 /* base.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 6896C925ECE626DE31B1EDB01494AA04 /* base.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		0AA7FC0198FE7B6EAE5F4D2A2C2A9D66 /* utilities_impl.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 47002B3C513899CA8E88E3D318BA1A8F /* utilities_impl.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		0D70E5157E50E525BBD4DF0C5C0BD9B6 /* base64.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 33BC2A73E6A9792DA1FF51A27582C7F1 /* base64.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		15715DC6CD60A51646C82771855E004E /* system_error.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 7402620D518FA148904B93575DB3A0B2 /* system_error.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		16C0E7E1292227CAD24847AD1A8C10CF /* hybi08.hpp in Headers */ = {isa = PBXBuildFile; fileRef = EAB3FD011FE620A1CDDBDDCDFC8B18C6 /* hybi08.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		17803409A24CB0624630DBBE79B16AE8 /* debug_asio.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 35FD401409A60848ACB439E199F6CD7D /* debug_asio.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		187AD1292505119F0037807F /* TestWeb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 187AD1272505119F0037807F /* TestWeb.cpp */; };
+		187AD12A2505119F0037807F /* TestWeb.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 187AD1282505119F0037807F /* TestWeb.hpp */; };
+		19CF11D0DAA1A9E485001A5F7EB1B927 /* server.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B5A3DF5683F9CD09D551EFBA2793E127 /* server.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		1B99741250401CD1EEFB652BDBA93CC3 /* disabled.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8E5DC53E22CF3FF40836D84D4161F8B9 /* disabled.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		1DE7D1E91C9D5B22539FB272BE48B051 /* HellosPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 0244632A19A28CF33EA158A9D767F4DF /* HellosPlugin.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		21F172385A47EA01EDEC1F99613CAED3 /* asio_client.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 31DA11BC602A1A3AD057163056053ECD /* asio_client.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		2583AF76CE3065092AA961F566AC2DB7 /* minimal_client.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 9EC02F7AFB22CD442282D5078E267BFA /* minimal_client.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		27F3C7AE0BFEDF8590367F73C569E3F5 /* pool.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 12853BC4886942124BF9F12FBD6FFFB5 /* pool.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		28F30D8A3FB90479954E11247DF1AF73 /* client_endpoint.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 0684E4424C134B7BD597C2156764FD4D /* client_endpoint.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		2A22004CE77D92CE6B885950151783C3 /* stdint.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B989DF1CA39AFF4A36060255B248BFB0 /* stdint.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		2AC352ACF7282C36DCA329751F53C178 /* extension.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 45ABC46FF91E1FE993FAC201AFC9EA90 /* extension.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		2D5A5A8640F825DC2F22D907D762E66C /* utf8_validator.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B5959CF829A8F209450B289513755F1E /* utf8_validator.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		31000AB7A0996C3C1E3F3AE5B79AB1D6 /* processor.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 797E0F25964BF50DC1B49DBF8C05BC03 /* processor.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		32EECDC75BE6587446A63688484B0125 /* stub.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C5FC1660B7F51E0C64E511239593CD7E /* stub.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		335763730D8C60F0BCA657DC4BB5CA7E /* asio.hpp in Headers */ = {isa = PBXBuildFile; fileRef = AA58AEB32A839DB1DC4189B03344004B /* asio.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		39CD8756452FF2808C04512D2BC8BF53 /* random.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 7A1289DE545558DD85D5EEBAF3289EB5 /* random.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		3BF7FB4A1369047DE7E3E71EA83EFE7D /* hybi07.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 92C43FF03B1D8EC36D8DD7B1F3EF1086 /* hybi07.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		3F0D82262150AAEB3B2A2CD89DE22594 /* parser.hpp in Headers */ = {isa = PBXBuildFile; fileRef = D203F5FB1B0EEF9AF29AF0986B7E5F2F /* parser.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		43C77994CAF416D8850F0AFE374120C9 /* hellos-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8066EC7D76858EA038560BD38915B6EF /* hellos-dummy.m */; };
+		4B50DE8BF735CD13888753837C9D311B /* none.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 460D2EFAD3536F9CD30C65FF54BC9CBC /* none.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		4B9C0A0737689D48C38292010AFD48ED /* base.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 27E056F8A5E292A41B9D71A391B0B59A /* base.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		501727819658E950DCFC28EC17E7D3EA /* endpoint.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 6D0628FC482D65C89F47BB6B1F0DC128 /* endpoint.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		532FE464A96D142C50611DEC8220BCE9 /* none.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 217CB839A1D6F00561A7B470795C232E /* none.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		5831C9F02B2289EED2C425F11DA79E64 /* asio_no_tls_client.hpp in Headers */ = {isa = PBXBuildFile; fileRef = A914981A5B51CD40ADE1B406B899FE3D /* asio_no_tls_client.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		5B71F964AFA87FE4D1AF042D077564A3 /* Pods-Runner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB8FFF62F4BCF0BA942F28F4B469FC2 /* Pods-Runner-dummy.m */; };
+		63E83451D68D5B945541FADA5513EB82 /* response.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8BF07700B8787C9436BAF975A9D73592 /* response.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		63E8DDBF3D6AD733C5EB726D2255AF6F /* connection_impl.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 27C11F79FB44C9134C622FF48861C8C5 /* connection_impl.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		66CF536D0ABE2EC975AC311EDF12EBCC /* type_traits.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 302993C09736AA26A368FBBF68089F25 /* type_traits.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		6B820376404974CBBB28E27EC990E967 /* random_device.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 4FE56B95D24086561D9A6E57DAB4AB4B /* random_device.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		72FE5AB727201C0459D7C40E91710615 /* error.hpp in Headers */ = {isa = PBXBuildFile; fileRef = A38759F5D5C17F0D7356C43E70FF7A4D /* error.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		751F403EE4261069857154121E5F3C3A /* connection_hdl.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2AC1FFA73C624CEC6B583131AA2E1C2B /* connection_hdl.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		75C35F6A6E2E65DDD9416477A1897F4B /* parser.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 5BAAAFD9011FB330F1FDBE2D43460881 /* parser.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		7749473737272B0055736D0689FACFCE /* version.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2FF623C1E51C403E67E2A937F546B3F3 /* version.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		774CC0A46A3748C238D5148A207B6063 /* asio.hpp in Headers */ = {isa = PBXBuildFile; fileRef = ACB675C572E63DEFEC5AFB869A047AE5 /* asio.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		77B0D0FB3007D11B8C91F48E2D4C9B37 /* frame.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 266464EF7028367E09BC5F18210C0068 /* frame.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		7CB3B03AEB505BFA9B530F612A3F1706 /* base.hpp in Headers */ = {isa = PBXBuildFile; fileRef = FB876D647E61057C2486EF3CCD1A15E0 /* base.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		7CBA0F1A564D22DD5EBADF19F065AB58 /* request.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 61D8EDD8BF8FBD6EB7B187D8E626735C /* request.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		7E14E8B1FEC800BC5B14F1417D1F623E /* close.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 0FD75D2871FAEF49A8901EC4467A53A8 /* close.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		7F0944935788AA3106B05C888F940009 /* debug.hpp in Headers */ = {isa = PBXBuildFile; fileRef = A9C450094CBC2BD64733AE5546755705 /* debug.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		7FD036D0D9D143A16E811AB7C27AEE7C /* base.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 3FCA79E976E8CDB161E27B0D666ACC28 /* base.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		81D97863F99C6616E1C9999334569B51 /* endpoint_base.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 83152E18ED7FC5F075D27108DF7F4B5E /* endpoint_base.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		81E9D10F2682E3148875AA207207ECC1 /* platforms.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C5983362D6068EB790DE7DC22CA3D62E /* platforms.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		896F3EE7E77F46A3A68DCD2B6CB2FDFC /* constants.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 138C8044F4056F77A16B18E26FFB7F82 /* constants.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		8AABF493AE4490DF514ADBDA46A8F1CB /* endpoint.hpp in Headers */ = {isa = PBXBuildFile; fileRef = E161CA3030D681EF919680F7932B070F /* endpoint.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		8D14C01F41DB438CCB6626BBB6AD4444 /* thread.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F6DC2107DE51B97D7C7B4E74A860E364 /* thread.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		8F53FC62F19703671BD469881CC8FB86 /* enabled.hpp in Headers */ = {isa = PBXBuildFile; fileRef = D60308352D897A7958B88CC1771888CA /* enabled.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		9853B7A0FB9653E9F66CBD37FCF71583 /* endpoint_impl.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 21FB5B8950FE7EB9B21818F62DCE3152 /* endpoint_impl.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		9A358CE101648FFF5A621EAE41EC0F08 /* none.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C81EE00BC54E0D50C1082466DF288E0C /* none.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		9A392AA8C534F550D0E549AFC77E134B /* connection.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C33F5CAE82052BD3DF8BB082869ED4BC /* connection.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		9DC008B5EA7FA40C8AA71CE262745A48 /* base.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 454BD586BE003D97E47F0C3965F96454 /* base.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		A0805398A74675A3E5F5C96A44F116F7 /* HellosPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA69E77B062701A3BF0DFFF2738E9C7 /* HellosPlugin.m */; };
+		A08F10A78CF3FA2D8EE734DCF01AB818 /* connection.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 20DF224DF77635D548DA304C3F94F6F3 /* connection.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		A378D8DF957478B35932B7713FD5DCEC /* base.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F11B9E7100E623D1500CAD532753447E /* base.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		A409B552D433EE8985712F014FA6D992 /* memory.hpp in Headers */ = {isa = PBXBuildFile; fileRef = AC1A6B5D63890C3098A9061ADDD856FB /* memory.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		A4BE882343B664E7309A95C659260449 /* md5.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 3640FD3AC9C3DDF060A438BF6362C959 /* md5.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		AAFAF0CB9D5B267D52982199B2E46665 /* basic.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 96B0DCD9B29C14F7558AE5E9FB9E2B8F /* basic.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		B13C45CE3F73FD6E17AFA6840938BC39 /* connection.hpp in Headers */ = {isa = PBXBuildFile; fileRef = C3982A3ECCA4168CD4CB7150C1F2A29C /* connection.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		B2944A42382A66DE01CF33969FDBF896 /* syslog.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 73362850F891251D808B60E622FCB64E /* syslog.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		B37728C619B385E89891EFD7042F2D1C /* regex.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 225E1B6E0684534F8CE830F0F7C00B51 /* regex.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		B83C35EBAEE85829024F637149342EC4 /* connection.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 993465173E9D9B74AD194E91A9BD90F2 /* connection.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		B8D48E1E8A711F95F39E2825DA4F7973 /* alloc.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 39E605B6EC5926BE83BD47158BA9ADFD /* alloc.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		B9B32DE04E069FF789C18265413ACAA6 /* core_client.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 95EBDCAB9C7814351E748748CC774A75 /* core_client.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		BABC10411774EC8E5D4C68951B36C73A /* sha1.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 62155BD8815B36AEAF15DCFEEDA7DBDD /* sha1.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		BB6302B8572CE0AAD42D3897C743917A /* functional.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 237F2FF839AD22BAEAACB7235F936236 /* functional.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		BFCFDF9760B1A6D4B129ABB3572F14EA /* connection_base.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 788CE5348553F257C3EA5BC6A1A36606 /* connection_base.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		C3CFB4F4F86A9E9D9C5E6E971537A654 /* hellos-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D46E5828F32EDE7C5440BFCC65D6C9AD /* hellos-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C9D77A7FBE8D30EBDDDBEB77F999C0D7 /* endpoint.hpp in Headers */ = {isa = PBXBuildFile; fileRef = A5E407E42186B78D9831C743B9D2323C /* endpoint.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		D19C955CDED127F496E16C0ABC3ADA53 /* debug_asio_no_tls.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 96F73B740D2415101F8DE176359B1A9A /* debug_asio_no_tls.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		D2F4D29236602BC752358C0C5C22865E /* server_endpoint.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 599B397F7244CD4C80210309F460AB47 /* server_endpoint.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		D733DD8D7CE82D30F7A25973A359840D /* endpoint.hpp in Headers */ = {isa = PBXBuildFile; fileRef = A91812712A5276E9CF1CF454DBE1322F /* endpoint.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		D73570BD9652EB2D1CDA7F93D1EF0C45 /* uri.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B46DE0BB2D82107A7A61B53BB17E5AFA /* uri.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		D7D7F4FDB7FB0D77CAD10D58E0B84960 /* basic.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 6E934E0807C2D35DD199151598F303FA /* basic.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		D8E867E9702D8FB0BE7CFF8DC0E7EF46 /* cpp11.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 4A1B46BCFDEB8E5811690E4670878472 /* cpp11.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		DEF68147225FF89640DCBC9027595C5C /* minimal_server.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 62A70B79D20F15EF943EFF8C524584B4 /* minimal_server.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		E1550B1C4D2119B2073A73C1C6E51342 /* request.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 622FBAB9038F9FBEA9E1502400285892 /* request.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		E2CBEB0680B73F39B8A3C0CFD74EC55E /* levels.hpp in Headers */ = {isa = PBXBuildFile; fileRef = CF998C546EEAA46E71BA22FA8571011B /* levels.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		E2D2A4777DB19D285075DE85DDCDC0E9 /* response.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F69BEF340AF7EE96BE1001CB91DD25E6 /* response.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		E577E76B929835389B4B052476DA8DD4 /* time.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 43F460808036E66B273CF3665065B411 /* time.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		E6C29FCDB80F081A1DBF0E24C8B23ED6 /* asio_ssl.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 1F8ABA4D39C3F59648A45CCAD54C2C6B /* asio_ssl.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		E7AFE60BF474BFA8D4202369BB545461 /* connection.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 880E209C7AF71D9F8CA49555E64332BC /* connection.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		E9B9FF51684F2723B33E9876B379F530 /* utilities.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B487C6B8C62004075E31466F04094A8D /* utilities.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		EB793B07AF3AA4676185A2030887744D /* boost_config.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 6C2DC1713D283D3139E982413D97AA3E /* boost_config.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		EC0A62D26C5F8242532A34AB0D9798AF /* hybi00.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 4A60FE69F7E87035D6CAE6326D4B5213 /* hybi00.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		EC6B84F614A9A2DF182A2D386BB2E50C /* message.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 4B14C2BF3F6D48999FC91CE912061928 /* message.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		F2D6D1A607685B032072F1F93EFFAD5E /* client.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 9F3CDC935EE16D49216B30BE281C4126 /* client.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4B3A63B40F10BDAE3E0B3DD1D32D887 /* chrono.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 327E2223269644776DFADF052691F125 /* chrono.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		F58812F3803C566A7556911DB1378885 /* connection.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8E3869B8B1264B7CDDE2B318F9BC0254 /* connection.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		F65E0D5456C75A8DBB3280F55789F495 /* hybi13.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 78B51D1259ECC8D89CFDDDEE40268847 /* hybi13.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		F69A9A1CE71A47B608F2E57FFAB249D3 /* core.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 4740D37B58BB870F2B61FD500054F31F /* core.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		F7C799911B193E8EDA1D84E14F2C87F9 /* endpoint.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 41B9B14D520A3E171A9138D9B0E8014B /* endpoint.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		FBD21AC204192BCE589C3403991D2674 /* asio_no_tls.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 9BDE7032949728707C7A0F1E868A58B2 /* asio_no_tls.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AC7EA14E3E1A5C72E7C9EFD89732D2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EFDDC32A34D56D411E640A81DCD9E73;
+			remoteInfo = Flutter;
+		};
+		80CF2092C1B19D938693C6DE0D4A9B20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BC2183EE0967C8D47F655508AEA808C;
+			remoteInfo = hellos;
+		};
+		F93A94C5853701A9D5BB2ACF027BC3AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EFDDC32A34D56D411E640A81DCD9E73;
+			remoteInfo = Flutter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02079DAD1ABCACA4AF8A87B923A86BBA /* hellos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = hellos.debug.xcconfig; sourceTree = "<group>"; };
+		0244632A19A28CF33EA158A9D767F4DF /* HellosPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HellosPlugin.h; path = ../../../../../../../ios/Classes/HellosPlugin.h; sourceTree = "<group>"; };
+		0684E4424C134B7BD597C2156764FD4D /* client_endpoint.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = client_endpoint.hpp; path = ../../../../../../../../../ios/Classes/websocketpp/roles/client_endpoint.hpp; sourceTree = "<group>"; };
+		0BFCEA83FF73561FC3966ED8A434AD54 /* Pods-Runner-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Runner-frameworks.sh"; sourceTree = "<group>"; };
+		0C60956987D26A5329CFD79DBCAE0BCE /* libhellos.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libhellos.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FB8FFF62F4BCF0BA942F28F4B469FC2 /* Pods-Runner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Runner-dummy.m"; sourceTree = "<group>"; };
+		0FD75D2871FAEF49A8901EC4467A53A8 /* close.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = close.hpp; path = ../../../../../../../../ios/Classes/websocketpp/close.hpp; sourceTree = "<group>"; };
+		12853BC4886942124BF9F12FBD6FFFB5 /* pool.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = pool.hpp; path = ../../../../../../../../../ios/Classes/websocketpp/message_buffer/pool.hpp; sourceTree = "<group>"; };
+		138C8044F4056F77A16B18E26FFB7F82 /* constants.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = constants.hpp; path = ../../../../../../../../../ios/Classes/websocketpp/http/constants.hpp; sourceTree = "<group>"; };
+		187AD1272505119F0037807F /* TestWeb.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = TestWeb.cpp; path = ../../../../../../../ios/Classes/TestWeb.cpp; sourceTree = "<group>"; };
+		187AD1282505119F0037807F /* TestWeb.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = TestWeb.hpp; path = ../../../../../../../ios/Classes/TestWeb.hpp; sourceTree = "<group>"; };
+		1A5BE123891145E260A55ABF9B14E3F5 /* tls.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = tls.hpp; path = ../../../../../../../../../../../ios/Classes/websocketpp/transport/asio/security/tls.hpp; sourceTree = "<group>"; };
+		1D3CEFF2EB434B8A724A1A5FDB6FE608 /* hellos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = hellos.release.xcconfig; sourceTree = "<group>"; };
+		1F8ABA4D39C3F59648A45CCAD54C2C6B /* asio_ssl.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = asio_ssl.hpp; path = ../../../../../../../../../ios/Classes/websocketpp/common/asio_ssl.hpp; sourceTree = "<group>"; };
+		20DF224DF77635D548DA304C3F94F6F3 /* connection.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = connection.hpp; path = ../../../../../../../../../../ios/Classes/websocketpp/transport/asio/connection.hpp; sourceTree = "<group>"; };
+		217CB839A1D6F00561A7B470795C232E /* none.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = none.hpp; path = ../../../../../../../../../../../ios/Classes/websocketpp/transport/asio/security/none.hpp; sourceTree = "<group>"; };
+		21FB5B8950FE7EB9B21818F62DCE3152 /* endpoint_impl.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = endpoint_impl.hpp; path = ../../../../../../../../../ios/Classes/websocketpp/impl/endpoint_impl.hpp; sourceTree = "<group>"; };
+		225E1B6E0684534F8CE830F0F7C00B51 /* regex.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = regex.hpp; path = ../../../../../../../../../ios/Classes/websocketpp/common/regex.hpp; sourceTree = "<group>"; };
+		237F2FF839AD22BAEAACB7235F936236 /* functional.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = functional.hpp; path = ../../../../../../../../../ios/Classes/websocketpp/common/functional.hpp; sourceTree = "<group>"; };
+		266464EF7028367E09BC5F18210C0068 /* frame.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = frame.hpp; path = ../../../../../../../../ios/Classes/websocketpp/frame.hpp; sourceTree = "<group>"; };
+		27C11F79FB44C9134C622FF48861C8C5 /* connection_impl.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = connection_impl.hpp; path = ../../../../../../../../../ios/Classes/websocketpp/impl/connection_impl.hpp; sourceTree = "<group>"; };
+		27E056F8A5E292A41B9D71A391B0B59A /* base.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = base.hpp; path = ../../../../../../../../../../ios/Classes/websocketpp/transport/debug/base.hpp; sourceTree = "<group>"; };
+		2AC1FFA73C624CEC6B583131AA2E1C2B /* connection_hdl.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = connection_hdl.hpp; path = ../../../../../../../../../ios/Classes/websocketpp/common/connection_hdl.hpp; sourceTree = "<group>"; };
+		2FF623C1E51C403E67E2A937F546B3F3 /* version.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = version.hpp; path = ../../../../../../../../ios/Classes/websocketpp/version.hpp; sourceTree = "<group>"; };
+		302993C09736AA26A368FBBF68089F25 /* type_traits.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = type_traits.hpp; path = ../../../../../../../../../ios/Classes/websocketpp/common/type_traits.hpp; sourceTree = "<group>"; };
+		31DA11BC602A1A3AD057163056053ECD /* asio_client.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = asio_client.hpp; path = ../../../../../../../../../ios/Classes/websocketpp/config/asio_client.hpp; sourceTree = "<group>"; };
+		327E2223269644776DFADF052691F125 /* chrono.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = chrono.hpp; path = ../../../../../../../../../ios/Classes/websocketpp/common/chrono.hpp; sourceTree = "<group>"; };
+		33BC2A73E6A9792DA1FF51A27582C7F1 /* base64.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = base64.hpp; path = ../../../../../../../../../ios/Classes/websocketpp/base64/base64.hpp; sourceTree = "<group>"; };
+		35FD401409A60848ACB439E199F6CD7D /* debug_asio.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = debug_asio.hpp; path = ../../../../../../../../../ios/Classes/websocketpp/config/debug_asio.hpp; sourceTree = "<group>"; };
+		3640FD3AC9C3DDF060A438BF6362C959 /* md5.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = md5.hpp; path = ../../../../../../../../../ios/Classes/websocketpp/common/md5.hpp; sourceTree = "<group>"; };
+		39E605B6EC5926BE83BD47158BA9ADFD /* alloc.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = alloc.hpp; path = ../../../../../../../../../ios/Classes/websocketpp/message_buffer/alloc.hpp; sourceTree = "<group>"; };
+		3FCA79E976E8CDB161E27B0D666ACC28 /* base.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = base.hpp; path = ../../../../../../../../../ios/Classes/websocketpp/processors/base.hpp; sourceTree = "<group>"; };
+		41B9B14D520A3E171A9138D9B0E8014B /* endpoint.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = endpoint.hpp; path = ../../../../../../../../../../ios/Classes/websocketpp/transport/asio/endpoint.hpp; sourceTree = "<group>"; };
+		43F460808036E66B273CF3665065B411 /* time.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = time.hpp; path = ../../../../../../../../../ios/Classes/websocketpp/common/time.hpp; sourceTree = "<group>"; };
+		454BD586BE003D97E47F0C3965F96454 /* base.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = base.hpp; path = ../../../../../../../../../../../ios/Classes/websocketpp/transport/asio/security/base.hpp; sourceTree = "<group>"; };
+		45ABC46FF91E1FE993FAC201AFC9EA90 /* extension.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = extension.hpp; path = ../../../../../../../../../ios/Classes/websocketpp/extensions/extension.hpp; sourceTree = "<group>"; };
+		460D2EFAD3536F9CD30C65FF54BC9CBC /* none.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = none.hpp; path = ../../../../../../../../../ios/Classes/websocketpp/concurrency/none.hpp; sourceTree = "<group>"; };
+		47002B3C513899CA8E88E3D318BA1A8F /* utilities_impl.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = utilities_impl.hpp; path = ../../../../../../../../../ios/Classes/websocketpp/impl/utilities_impl.hpp; sourceTree = "<group>"; };
+		4740D37B58BB870F2B61FD500054F31F /* core.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = core.hpp; path = ../../../../../../../../../ios/Classes/websocketpp/config/core.hpp; sourceTree = "<group>"; };
+		4A1B46BCFDEB8E5811690E4670878472 /* cpp11.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = cpp11.hpp; path = ../../../../../../../../../ios/Classes/websocketpp/common/cpp11.hpp; sourceTree = "<group>"; };
+		4A60FE69F7E87035D6CAE6326D4B5213 /* hybi00.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = hybi00.hpp; path = ../../../../../../../../../ios/Classes/websocketpp/processors/hybi00.hpp; sourceTree = "<group>"; };
+		4B14C2BF3F6D48999FC91CE912061928 /* message.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = message.hpp; path = ../../../../../../../../../ios/Classes/websocketpp/message_buffer/message.hpp; sourceTree = "<group>"; };
+		4FE56B95D24086561D9A6E57DAB4AB4B /* random_device.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = random_device.hpp; path = ../../../../../../../../../ios/Classes/websocketpp/random/random_device.hpp; sourceTree = "<group>"; };
+		594CC509A36237F1BB353783867A2868 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../../../../../../LICENSE; sourceTree = "<group>"; };
+		599B397F7244CD4C80210309F460AB47 /* server_endpoint.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = server_endpoint.hpp; path = ../../../../../../../../../ios/Classes/websocketpp/roles/server_endpoint.hpp; sourceTree = "<group>"; };
+		5BAAAFD9011FB330F1FDBE2D43460881 /* parser.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = parser.hpp; path = ../../../../../../../../../ios/Classes/websocketpp/http/parser.hpp; sourceTree = "<group>"; };
+		61D8EDD8BF8FBD6EB7B187D8E626735C /* request.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = request.hpp; path = ../../../../../../../../../../ios/Classes/websocketpp/http/impl/request.hpp; sourceTree = "<group>"; };
+		62155BD8815B36AEAF15DCFEEDA7DBDD /* sha1.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = sha1.hpp; path = ../../../../../../../../../ios/Classes/websocketpp/sha1/sha1.hpp; sourceTree = "<group>"; };
+		622FBAB9038F9FBEA9E1502400285892 /* request.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = request.hpp; path = ../../../../../../../../../ios/Classes/websocketpp/http/request.hpp; sourceTree = "<group>"; };
+		62A70B79D20F15EF943EFF8C524584B4 /* minimal_server.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = minimal_server.hpp; path = ../../../../../../../../../ios/Classes/websocketpp/config/minimal_server.hpp; sourceTree = "<group>"; };
+		669E8F25E1897672BDB80B7EB784DA24 /* libPods-Runner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Runner.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6896C925ECE626DE31B1EDB01494AA04 /* base.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = base.hpp; path = ../../../../../../../../../../ios/Classes/websocketpp/transport/asio/base.hpp; sourceTree = "<group>"; };
+		6C2DC1713D283D3139E982413D97AA3E /* boost_config.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = boost_config.hpp; path = ../../../../../../../../../ios/Classes/websocketpp/config/boost_config.hpp; sourceTree = "<group>"; };
+		6D0628FC482D65C89F47BB6B1F0DC128 /* endpoint.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = endpoint.hpp; path = ../../../../../../../../../../ios/Classes/websocketpp/transport/iostream/endpoint.hpp; sourceTree = "<group>"; };
+		6E934E0807C2D35DD199151598F303FA /* basic.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = basic.hpp; path = ../../../../../../../../../ios/Classes/websocketpp/logger/basic.hpp; sourceTree = "<group>"; };
+		73362850F891251D808B60E622FCB64E /* syslog.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = syslog.hpp; path = ../../../../../../../../../ios/Classes/websocketpp/logger/syslog.hpp; sourceTree = "<group>"; };
+		7402620D518FA148904B93575DB3A0B2 /* system_error.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = system_error.hpp; path = ../../../../../../../../../ios/Classes/websocketpp/common/system_error.hpp; sourceTree = "<group>"; };
+		7438227A001C5544DCE9C24F59AD201F /* hellos.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = hellos.modulemap; sourceTree = "<group>"; };
+		788CE5348553F257C3EA5BC6A1A36606 /* connection_base.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = connection_base.hpp; path = ../../../../../../../../ios/Classes/websocketpp/connection_base.hpp; sourceTree = "<group>"; };
+		78B51D1259ECC8D89CFDDDEE40268847 /* hybi13.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = hybi13.hpp; path = ../../../../../../../../../ios/Classes/websocketpp/processors/hybi13.hpp; sourceTree = "<group>"; };
+		797E0F25964BF50DC1B49DBF8C05BC03 /* processor.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = processor.hpp; path = ../../../../../../../../../ios/Classes/websocketpp/processors/processor.hpp; sourceTree = "<group>"; };
+		7A1289DE545558DD85D5EEBAF3289EB5 /* random.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = random.hpp; path = ../../../../../../../../../ios/Classes/websocketpp/common/random.hpp; sourceTree = "<group>"; };
+		8066EC7D76858EA038560BD38915B6EF /* hellos-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "hellos-dummy.m"; sourceTree = "<group>"; };
+		83152E18ED7FC5F075D27108DF7F4B5E /* endpoint_base.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = endpoint_base.hpp; path = ../../../../../../../../ios/Classes/websocketpp/endpoint_base.hpp; sourceTree = "<group>"; };
+		880BF5D9BABBB61ABD4FC29D1060609F /* network.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = network.hpp; path = ../../../../../../../../../ios/Classes/websocketpp/common/network.hpp; sourceTree = "<group>"; };
+		880E209C7AF71D9F8CA49555E64332BC /* connection.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = connection.hpp; path = ../../../../../../../../../../ios/Classes/websocketpp/transport/debug/connection.hpp; sourceTree = "<group>"; };
+		8BF07700B8787C9436BAF975A9D73592 /* response.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = response.hpp; path = ../../../../../../../../../ios/Classes/websocketpp/http/response.hpp; sourceTree = "<group>"; };
+		8C3477F1E6616960E815FBE9E0140F1C /* Pods-Runner-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Runner-acknowledgements.plist"; sourceTree = "<group>"; };
+		8E3869B8B1264B7CDDE2B318F9BC0254 /* connection.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = connection.hpp; path = ../../../../../../../../../../ios/Classes/websocketpp/transport/base/connection.hpp; sourceTree = "<group>"; };
+		8E5DC53E22CF3FF40836D84D4161F8B9 /* disabled.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = disabled.hpp; path = ../../../../../../../../../../ios/Classes/websocketpp/extensions/permessage_deflate/disabled.hpp; sourceTree = "<group>"; };
+		92C43FF03B1D8EC36D8DD7B1F3EF1086 /* hybi07.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = hybi07.hpp; path = ../../../../../../../../../ios/Classes/websocketpp/processors/hybi07.hpp; sourceTree = "<group>"; };
+		95EBDCAB9C7814351E748748CC774A75 /* core_client.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = core_client.hpp; path = ../../../../../../../../../ios/Classes/websocketpp/config/core_client.hpp; sourceTree = "<group>"; };
+		96B0DCD9B29C14F7558AE5E9FB9E2B8F /* basic.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = basic.hpp; path = ../../../../../../../../../ios/Classes/websocketpp/concurrency/basic.hpp; sourceTree = "<group>"; };
+		96F73B740D2415101F8DE176359B1A9A /* debug_asio_no_tls.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = debug_asio_no_tls.hpp; path = ../../../../../../../../../ios/Classes/websocketpp/config/debug_asio_no_tls.hpp; sourceTree = "<group>"; };
+		993465173E9D9B74AD194E91A9BD90F2 /* connection.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = connection.hpp; path = ../../../../../../../../../../ios/Classes/websocketpp/transport/iostream/connection.hpp; sourceTree = "<group>"; };
+		9BDE7032949728707C7A0F1E868A58B2 /* asio_no_tls.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = asio_no_tls.hpp; path = ../../../../../../../../../ios/Classes/websocketpp/config/asio_no_tls.hpp; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EC02F7AFB22CD442282D5078E267BFA /* minimal_client.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = minimal_client.hpp; path = ../../../../../../../../../ios/Classes/websocketpp/config/minimal_client.hpp; sourceTree = "<group>"; };
+		9F3CDC935EE16D49216B30BE281C4126 /* client.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = client.hpp; path = ../../../../../../../../ios/Classes/websocketpp/client.hpp; sourceTree = "<group>"; };
+		A38759F5D5C17F0D7356C43E70FF7A4D /* error.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = error.hpp; path = ../../../../../../../../ios/Classes/websocketpp/error.hpp; sourceTree = "<group>"; };
+		A5E407E42186B78D9831C743B9D2323C /* endpoint.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = endpoint.hpp; path = ../../../../../../../../ios/Classes/websocketpp/endpoint.hpp; sourceTree = "<group>"; };
+		A914981A5B51CD40ADE1B406B899FE3D /* asio_no_tls_client.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = asio_no_tls_client.hpp; path = ../../../../../../../../../ios/Classes/websocketpp/config/asio_no_tls_client.hpp; sourceTree = "<group>"; };
+		A91812712A5276E9CF1CF454DBE1322F /* endpoint.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = endpoint.hpp; path = ../../../../../../../../../../ios/Classes/websocketpp/transport/stub/endpoint.hpp; sourceTree = "<group>"; };
+		A9C450094CBC2BD64733AE5546755705 /* debug.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = debug.hpp; path = ../../../../../../../../../ios/Classes/websocketpp/config/debug.hpp; sourceTree = "<group>"; };
+		AA58AEB32A839DB1DC4189B03344004B /* asio.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = asio.hpp; path = ../../../../../../../../../ios/Classes/websocketpp/config/asio.hpp; sourceTree = "<group>"; };
+		AC1A6B5D63890C3098A9061ADDD856FB /* memory.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = memory.hpp; path = ../../../../../../../../../ios/Classes/websocketpp/common/memory.hpp; sourceTree = "<group>"; };
+		ACB675C572E63DEFEC5AFB869A047AE5 /* asio.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = asio.hpp; path = ../../../../../../../../../ios/Classes/websocketpp/common/asio.hpp; sourceTree = "<group>"; };
+		AFA69E77B062701A3BF0DFFF2738E9C7 /* HellosPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HellosPlugin.m; path = ../../../../../../../ios/Classes/HellosPlugin.m; sourceTree = "<group>"; };
+		B3C9D3CFCF3FA7E3BB8B31D0E3B0DA40 /* Pods-Runner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Runner.debug.xcconfig"; sourceTree = "<group>"; };
+		B46DE0BB2D82107A7A61B53BB17E5AFA /* uri.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = uri.hpp; path = ../../../../../../../../ios/Classes/websocketpp/uri.hpp; sourceTree = "<group>"; };
+		B487C6B8C62004075E31466F04094A8D /* utilities.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = utilities.hpp; path = ../../../../../../../../ios/Classes/websocketpp/utilities.hpp; sourceTree = "<group>"; };
+		B5959CF829A8F209450B289513755F1E /* utf8_validator.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = utf8_validator.hpp; path = ../../../../../../../../ios/Classes/websocketpp/utf8_validator.hpp; sourceTree = "<group>"; };
+		B5A3DF5683F9CD09D551EFBA2793E127 /* server.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = server.hpp; path = ../../../../../../../../ios/Classes/websocketpp/server.hpp; sourceTree = "<group>"; };
+		B989DF1CA39AFF4A36060255B248BFB0 /* stdint.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = stdint.hpp; path = ../../../../../../../../../ios/Classes/websocketpp/common/stdint.hpp; sourceTree = "<group>"; };
+		C33F5CAE82052BD3DF8BB082869ED4BC /* connection.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = connection.hpp; path = ../../../../../../../../ios/Classes/websocketpp/connection.hpp; sourceTree = "<group>"; };
+		C3982A3ECCA4168CD4CB7150C1F2A29C /* connection.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = connection.hpp; path = ../../../../../../../../../../ios/Classes/websocketpp/transport/stub/connection.hpp; sourceTree = "<group>"; };
+		C5983362D6068EB790DE7DC22CA3D62E /* platforms.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = platforms.hpp; path = ../../../../../../../../../ios/Classes/websocketpp/common/platforms.hpp; sourceTree = "<group>"; };
+		C5D032F16F0B0D89DADE5D35B6889001 /* hellos.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = hellos.podspec; path = ../../../../../../ios/hellos.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C5FC1660B7F51E0C64E511239593CD7E /* stub.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = stub.hpp; path = ../../../../../../../../../ios/Classes/websocketpp/logger/stub.hpp; sourceTree = "<group>"; };
+		C81EE00BC54E0D50C1082466DF288E0C /* none.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = none.hpp; path = ../../../../../../../../../ios/Classes/websocketpp/random/none.hpp; sourceTree = "<group>"; };
+		CF998C546EEAA46E71BA22FA8571011B /* levels.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = levels.hpp; path = ../../../../../../../../../ios/Classes/websocketpp/logger/levels.hpp; sourceTree = "<group>"; };
+		D203F5FB1B0EEF9AF29AF0986B7E5F2F /* parser.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = parser.hpp; path = ../../../../../../../../../../ios/Classes/websocketpp/http/impl/parser.hpp; sourceTree = "<group>"; };
+		D2C30FD35317107103B0C14F5116F31F /* Flutter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Flutter.framework; sourceTree = "<group>"; };
+		D46E5828F32EDE7C5440BFCC65D6C9AD /* hellos-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "hellos-umbrella.h"; sourceTree = "<group>"; };
+		D60308352D897A7958B88CC1771888CA /* enabled.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = enabled.hpp; path = ../../../../../../../../../../ios/Classes/websocketpp/extensions/permessage_deflate/enabled.hpp; sourceTree = "<group>"; };
+		DF0AF5474C02B0E1B187AA8DC4AE41BC /* Pods-Runner.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Runner.profile.xcconfig"; sourceTree = "<group>"; };
+		E0D143E02A4CAFF2CE528FA618F2BE36 /* Flutter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Flutter.debug.xcconfig; sourceTree = "<group>"; };
+		E161CA3030D681EF919680F7932B070F /* endpoint.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = endpoint.hpp; path = ../../../../../../../../../../ios/Classes/websocketpp/transport/base/endpoint.hpp; sourceTree = "<group>"; };
+		E5ABAE8C92A5056077FF6F02481D7B6C /* Pods-Runner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Runner.release.xcconfig"; sourceTree = "<group>"; };
+		EAB3FD011FE620A1CDDBDDCDFC8B18C6 /* hybi08.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = hybi08.hpp; path = ../../../../../../../../../ios/Classes/websocketpp/processors/hybi08.hpp; sourceTree = "<group>"; };
+		ED468541C49D0804BC43219649F55161 /* Pods-Runner-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Runner-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EF36893BDA5E4AF938EF36216A1C6BE3 /* hellos-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "hellos-prefix.pch"; sourceTree = "<group>"; };
+		F09D5EF933C0AAB36786355C8E901C15 /* Flutter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Flutter.release.xcconfig; sourceTree = "<group>"; };
+		F11B9E7100E623D1500CAD532753447E /* base.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = base.hpp; path = ../../../../../../../../../../ios/Classes/websocketpp/transport/iostream/base.hpp; sourceTree = "<group>"; };
+		F484603277C09A9CBE5C5BB13E93796B /* endpoint.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = endpoint.hpp; path = ../../../../../../../../../../ios/Classes/websocketpp/transport/debug/endpoint.hpp; sourceTree = "<group>"; };
+		F69BEF340AF7EE96BE1001CB91DD25E6 /* response.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = response.hpp; path = ../../../../../../../../../../ios/Classes/websocketpp/http/impl/response.hpp; sourceTree = "<group>"; };
+		F6DC2107DE51B97D7C7B4E74A860E364 /* thread.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = thread.hpp; path = ../../../../../../../../../ios/Classes/websocketpp/common/thread.hpp; sourceTree = "<group>"; };
+		F871AAAFEAA559E23AA70AA729B905C4 /* Flutter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Flutter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FB876D647E61057C2486EF3CCD1A15E0 /* base.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = base.hpp; path = ../../../../../../../../../../ios/Classes/websocketpp/transport/stub/base.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A52D39B891BA09C051FF022B15BDA8E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC1F9E9B1B818764655AE5E211C44332 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00F86E67BFCAB9F9A1713AB3D580DD6F /* permessage_deflate */ = {
+			isa = PBXGroup;
+			children = (
+				8E5DC53E22CF3FF40836D84D4161F8B9 /* disabled.hpp */,
+				D60308352D897A7958B88CC1771888CA /* enabled.hpp */,
+			);
+			path = permessage_deflate;
+			sourceTree = "<group>";
+		};
+		03AFD4EBD96B6AF46E6A8565582C3007 /* Flutter */ = {
+			isa = PBXGroup;
+			children = (
+				B61A5D782C05636962FFE49AE5A9745F /* Frameworks */,
+				1FCB87E74FB4401500E65CEE76F8E48D /* Pod */,
+				FFE2C2659750AF0BD6D3E94217460AE8 /* Support Files */,
+			);
+			name = Flutter;
+			path = ../Flutter;
+			sourceTree = "<group>";
+		};
+		09516D6BD8F84D33E55ACF4689C39504 /* transport */ = {
+			isa = PBXGroup;
+			children = (
+				CBF96D552122A8EC1D511FC11352B373 /* asio */,
+				59A22CA5C72EBC5724DD53401AA58D77 /* base */,
+				112508F8D2531927389F0DA37079A2C1 /* debug */,
+				C81A96A595E509D12B5B59459309EB81 /* iostream */,
+				1466E8A2325644F0ECE655F6FF96E3DC /* stub */,
+			);
+			path = transport;
+			sourceTree = "<group>";
+		};
+		0AA00D71D48B04BF9C41C769EFBFB9D5 /* Pods-Runner */ = {
+			isa = PBXGroup;
+			children = (
+				ED468541C49D0804BC43219649F55161 /* Pods-Runner-acknowledgements.markdown */,
+				8C3477F1E6616960E815FBE9E0140F1C /* Pods-Runner-acknowledgements.plist */,
+				0FB8FFF62F4BCF0BA942F28F4B469FC2 /* Pods-Runner-dummy.m */,
+				0BFCEA83FF73561FC3966ED8A434AD54 /* Pods-Runner-frameworks.sh */,
+				B3C9D3CFCF3FA7E3BB8B31D0E3B0DA40 /* Pods-Runner.debug.xcconfig */,
+				DF0AF5474C02B0E1B187AA8DC4AE41BC /* Pods-Runner.profile.xcconfig */,
+				E5ABAE8C92A5056077FF6F02481D7B6C /* Pods-Runner.release.xcconfig */,
+			);
+			name = "Pods-Runner";
+			path = "Target Support Files/Pods-Runner";
+			sourceTree = "<group>";
+		};
+		0FB715CF84B7A222D2E394542ABCD99C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7438227A001C5544DCE9C24F59AD201F /* hellos.modulemap */,
+				8066EC7D76858EA038560BD38915B6EF /* hellos-dummy.m */,
+				EF36893BDA5E4AF938EF36216A1C6BE3 /* hellos-prefix.pch */,
+				D46E5828F32EDE7C5440BFCC65D6C9AD /* hellos-umbrella.h */,
+				02079DAD1ABCACA4AF8A87B923A86BBA /* hellos.debug.xcconfig */,
+				1D3CEFF2EB434B8A724A1A5FDB6FE608 /* hellos.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../../../Pods/Target Support Files/hellos";
+			sourceTree = "<group>";
+		};
+		112508F8D2531927389F0DA37079A2C1 /* debug */ = {
+			isa = PBXGroup;
+			children = (
+				27E056F8A5E292A41B9D71A391B0B59A /* base.hpp */,
+				880E209C7AF71D9F8CA49555E64332BC /* connection.hpp */,
+				F484603277C09A9CBE5C5BB13E93796B /* endpoint.hpp */,
+			);
+			path = debug;
+			sourceTree = "<group>";
+		};
+		1466E8A2325644F0ECE655F6FF96E3DC /* stub */ = {
+			isa = PBXGroup;
+			children = (
+				FB876D647E61057C2486EF3CCD1A15E0 /* base.hpp */,
+				C3982A3ECCA4168CD4CB7150C1F2A29C /* connection.hpp */,
+				A91812712A5276E9CF1CF454DBE1322F /* endpoint.hpp */,
+			);
+			path = stub;
+			sourceTree = "<group>";
+		};
+		1BB9B75EECE0F68EFA7D04CFA4FA354D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C60956987D26A5329CFD79DBCAE0BCE /* libhellos.a */,
+				669E8F25E1897672BDB80B7EB784DA24 /* libPods-Runner.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E8E9F3264FE03C32963B14F7B49D0DA /* .symlinks */ = {
+			isa = PBXGroup;
+			children = (
+				DF80B643C3103391D2EDCBA2FB1628C5 /* plugins */,
+			);
+			path = .symlinks;
+			sourceTree = "<group>";
+		};
+		1FCB87E74FB4401500E65CEE76F8E48D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F871AAAFEAA559E23AA70AA729B905C4 /* Flutter.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		27B0707F7DA551A7E9F9FAE8B993F08E /* impl */ = {
+			isa = PBXGroup;
+			children = (
+				27C11F79FB44C9134C622FF48861C8C5 /* connection_impl.hpp */,
+				21FB5B8950FE7EB9B21818F62DCE3152 /* endpoint_impl.hpp */,
+				47002B3C513899CA8E88E3D318BA1A8F /* utilities_impl.hpp */,
+			);
+			path = impl;
+			sourceTree = "<group>";
+		};
+		2B745A85E76915F3AC9FEDC51F573C88 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				45ABC46FF91E1FE993FAC201AFC9EA90 /* extension.hpp */,
+				00F86E67BFCAB9F9A1713AB3D580DD6F /* permessage_deflate */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		2C8088D1E86E63732F73677E3CBEA755 /* sha1 */ = {
+			isa = PBXGroup;
+			children = (
+				62155BD8815B36AEAF15DCFEEDA7DBDD /* sha1.hpp */,
+			);
+			path = sha1;
+			sourceTree = "<group>";
+		};
+		3171C73F346D9D015CA98E6C89B2847E /* random */ = {
+			isa = PBXGroup;
+			children = (
+				C81EE00BC54E0D50C1082466DF288E0C /* none.hpp */,
+				4FE56B95D24086561D9A6E57DAB4AB4B /* random_device.hpp */,
+			);
+			path = random;
+			sourceTree = "<group>";
+		};
+		37553E824D5AF64826EAB34A8D22ABCE /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				7324A5A446D7F8859B9878FF6F43A435 /* example */,
+			);
+			path = ..;
+			sourceTree = "<group>";
+		};
+		3919EA4683F22EC45FEAE65530228480 /* processors */ = {
+			isa = PBXGroup;
+			children = (
+				3FCA79E976E8CDB161E27B0D666ACC28 /* base.hpp */,
+				4A60FE69F7E87035D6CAE6326D4B5213 /* hybi00.hpp */,
+				92C43FF03B1D8EC36D8DD7B1F3EF1086 /* hybi07.hpp */,
+				EAB3FD011FE620A1CDDBDDCDFC8B18C6 /* hybi08.hpp */,
+				78B51D1259ECC8D89CFDDDEE40268847 /* hybi13.hpp */,
+				797E0F25964BF50DC1B49DBF8C05BC03 /* processor.hpp */,
+			);
+			path = processors;
+			sourceTree = "<group>";
+		};
+		3DD13FD3E829AE0CF701BF744DB6ABDA /* http */ = {
+			isa = PBXGroup;
+			children = (
+				138C8044F4056F77A16B18E26FFB7F82 /* constants.hpp */,
+				5BAAAFD9011FB330F1FDBE2D43460881 /* parser.hpp */,
+				622FBAB9038F9FBEA9E1502400285892 /* request.hpp */,
+				8BF07700B8787C9436BAF975A9D73592 /* response.hpp */,
+				FDCD8E22B09942012C1A4CEFE8290034 /* impl */,
+			);
+			path = http;
+			sourceTree = "<group>";
+		};
+		599EED67EBE91C6F494657635D486963 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0244632A19A28CF33EA158A9D767F4DF /* HellosPlugin.h */,
+				AFA69E77B062701A3BF0DFFF2738E9C7 /* HellosPlugin.m */,
+				C99D6246F38E2E401A003738ABAE9D51 /* websocketpp */,
+				187AD1272505119F0037807F /* TestWeb.cpp */,
+				187AD1282505119F0037807F /* TestWeb.hpp */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		59A22CA5C72EBC5724DD53401AA58D77 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				8E3869B8B1264B7CDDE2B318F9BC0254 /* connection.hpp */,
+				E161CA3030D681EF919680F7932B070F /* endpoint.hpp */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		5E1834F56038192F445FA3005ED2928A /* hellos */ = {
+			isa = PBXGroup;
+			children = (
+				EF031DAAE297971BA29EA274E5A95B28 /* ios */,
+			);
+			path = hellos;
+			sourceTree = "<group>";
+		};
+		6F2A2EF8165275926B54C1764A239A70 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0AA00D71D48B04BF9C41C769EFBFB9D5 /* Pods-Runner */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		71886AE5607B8C4B3435D74856C29B12 /* security */ = {
+			isa = PBXGroup;
+			children = (
+				454BD586BE003D97E47F0C3965F96454 /* base.hpp */,
+				217CB839A1D6F00561A7B470795C232E /* none.hpp */,
+				1A5BE123891145E260A55ABF9B14E3F5 /* tls.hpp */,
+			);
+			path = security;
+			sourceTree = "<group>";
+		};
+		7324A5A446D7F8859B9878FF6F43A435 /* example */ = {
+			isa = PBXGroup;
+			children = (
+				83422FD2454188FC4E47FE7C68C63410 /* ios */,
+			);
+			path = example;
+			sourceTree = "<group>";
+		};
+		7674EEC07EC06E3E4AB787008D4A242F /* message_buffer */ = {
+			isa = PBXGroup;
+			children = (
+				39E605B6EC5926BE83BD47158BA9ADFD /* alloc.hpp */,
+				4B14C2BF3F6D48999FC91CE912061928 /* message.hpp */,
+				12853BC4886942124BF9F12FBD6FFFB5 /* pool.hpp */,
+			);
+			path = message_buffer;
+			sourceTree = "<group>";
+		};
+		83422FD2454188FC4E47FE7C68C63410 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				1E8E9F3264FE03C32963B14F7B49D0DA /* .symlinks */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		8E87C11B434AE289C0170C5C9A58D0B7 /* logger */ = {
+			isa = PBXGroup;
+			children = (
+				6E934E0807C2D35DD199151598F303FA /* basic.hpp */,
+				CF998C546EEAA46E71BA22FA8571011B /* levels.hpp */,
+				C5FC1660B7F51E0C64E511239593CD7E /* stub.hpp */,
+				73362850F891251D808B60E622FCB64E /* syslog.hpp */,
+			);
+			path = logger;
+			sourceTree = "<group>";
+		};
+		90DC9F68A0FAFA083EE6210A8B85CD24 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				37553E824D5AF64826EAB34A8D22ABCE /* .. */,
+			);
+			name = ..;
+			path = ../../../../../../ios;
+			sourceTree = "<group>";
+		};
+		A3F5DCA8DFD2FAF874042488608FFD47 /* base64 */ = {
+			isa = PBXGroup;
+			children = (
+				33BC2A73E6A9792DA1FF51A27582C7F1 /* base64.hpp */,
+			);
+			path = base64;
+			sourceTree = "<group>";
+		};
+		A994DCF04903F87BD1C8A19B6BA6C971 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				03AFD4EBD96B6AF46E6A8565582C3007 /* Flutter */,
+				EC4AB297E7E1B00F17B026E8D18147C3 /* hellos */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		ACFD522F830BE257532ECB38A44B8653 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				ACB675C572E63DEFEC5AFB869A047AE5 /* asio.hpp */,
+				1F8ABA4D39C3F59648A45CCAD54C2C6B /* asio_ssl.hpp */,
+				327E2223269644776DFADF052691F125 /* chrono.hpp */,
+				2AC1FFA73C624CEC6B583131AA2E1C2B /* connection_hdl.hpp */,
+				4A1B46BCFDEB8E5811690E4670878472 /* cpp11.hpp */,
+				237F2FF839AD22BAEAACB7235F936236 /* functional.hpp */,
+				3640FD3AC9C3DDF060A438BF6362C959 /* md5.hpp */,
+				AC1A6B5D63890C3098A9061ADDD856FB /* memory.hpp */,
+				880BF5D9BABBB61ABD4FC29D1060609F /* network.hpp */,
+				C5983362D6068EB790DE7DC22CA3D62E /* platforms.hpp */,
+				7A1289DE545558DD85D5EEBAF3289EB5 /* random.hpp */,
+				225E1B6E0684534F8CE830F0F7C00B51 /* regex.hpp */,
+				B989DF1CA39AFF4A36060255B248BFB0 /* stdint.hpp */,
+				7402620D518FA148904B93575DB3A0B2 /* system_error.hpp */,
+				F6DC2107DE51B97D7C7B4E74A860E364 /* thread.hpp */,
+				43F460808036E66B273CF3665065B411 /* time.hpp */,
+				302993C09736AA26A368FBBF68089F25 /* type_traits.hpp */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		B1D5B62DC6FA8C8ABF0463E4F5EDD81C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C5D032F16F0B0D89DADE5D35B6889001 /* hellos.podspec */,
+				594CC509A36237F1BB353783867A2868 /* LICENSE */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B61A5D782C05636962FFE49AE5A9745F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2C30FD35317107103B0C14F5116F31F /* Flutter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C81A96A595E509D12B5B59459309EB81 /* iostream */ = {
+			isa = PBXGroup;
+			children = (
+				F11B9E7100E623D1500CAD532753447E /* base.hpp */,
+				993465173E9D9B74AD194E91A9BD90F2 /* connection.hpp */,
+				6D0628FC482D65C89F47BB6B1F0DC128 /* endpoint.hpp */,
+			);
+			path = iostream;
+			sourceTree = "<group>";
+		};
+		C99D6246F38E2E401A003738ABAE9D51 /* websocketpp */ = {
+			isa = PBXGroup;
+			children = (
+				9F3CDC935EE16D49216B30BE281C4126 /* client.hpp */,
+				0FD75D2871FAEF49A8901EC4467A53A8 /* close.hpp */,
+				C33F5CAE82052BD3DF8BB082869ED4BC /* connection.hpp */,
+				788CE5348553F257C3EA5BC6A1A36606 /* connection_base.hpp */,
+				A5E407E42186B78D9831C743B9D2323C /* endpoint.hpp */,
+				83152E18ED7FC5F075D27108DF7F4B5E /* endpoint_base.hpp */,
+				A38759F5D5C17F0D7356C43E70FF7A4D /* error.hpp */,
+				266464EF7028367E09BC5F18210C0068 /* frame.hpp */,
+				B5A3DF5683F9CD09D551EFBA2793E127 /* server.hpp */,
+				B46DE0BB2D82107A7A61B53BB17E5AFA /* uri.hpp */,
+				B5959CF829A8F209450B289513755F1E /* utf8_validator.hpp */,
+				B487C6B8C62004075E31466F04094A8D /* utilities.hpp */,
+				2FF623C1E51C403E67E2A937F546B3F3 /* version.hpp */,
+				A3F5DCA8DFD2FAF874042488608FFD47 /* base64 */,
+				ACFD522F830BE257532ECB38A44B8653 /* common */,
+				E6B4BA070D021B18F4CD758A784A2567 /* concurrency */,
+				D8F27FE177CDF9CD63C74688F4A9746A /* config */,
+				2B745A85E76915F3AC9FEDC51F573C88 /* extensions */,
+				3DD13FD3E829AE0CF701BF744DB6ABDA /* http */,
+				27B0707F7DA551A7E9F9FAE8B993F08E /* impl */,
+				8E87C11B434AE289C0170C5C9A58D0B7 /* logger */,
+				7674EEC07EC06E3E4AB787008D4A242F /* message_buffer */,
+				3919EA4683F22EC45FEAE65530228480 /* processors */,
+				3171C73F346D9D015CA98E6C89B2847E /* random */,
+				E4B988D68F827DD4240CB9134CFAA158 /* roles */,
+				2C8088D1E86E63732F73677E3CBEA755 /* sha1 */,
+				09516D6BD8F84D33E55ACF4689C39504 /* transport */,
+			);
+			path = websocketpp;
+			sourceTree = "<group>";
+		};
+		CBF96D552122A8EC1D511FC11352B373 /* asio */ = {
+			isa = PBXGroup;
+			children = (
+				6896C925ECE626DE31B1EDB01494AA04 /* base.hpp */,
+				20DF224DF77635D548DA304C3F94F6F3 /* connection.hpp */,
+				41B9B14D520A3E171A9138D9B0E8014B /* endpoint.hpp */,
+				71886AE5607B8C4B3435D74856C29B12 /* security */,
+			);
+			path = asio;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				A994DCF04903F87BD1C8A19B6BA6C971 /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				1BB9B75EECE0F68EFA7D04CFA4FA354D /* Products */,
+				6F2A2EF8165275926B54C1764A239A70 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8F27FE177CDF9CD63C74688F4A9746A /* config */ = {
+			isa = PBXGroup;
+			children = (
+				AA58AEB32A839DB1DC4189B03344004B /* asio.hpp */,
+				31DA11BC602A1A3AD057163056053ECD /* asio_client.hpp */,
+				9BDE7032949728707C7A0F1E868A58B2 /* asio_no_tls.hpp */,
+				A914981A5B51CD40ADE1B406B899FE3D /* asio_no_tls_client.hpp */,
+				6C2DC1713D283D3139E982413D97AA3E /* boost_config.hpp */,
+				4740D37B58BB870F2B61FD500054F31F /* core.hpp */,
+				95EBDCAB9C7814351E748748CC774A75 /* core_client.hpp */,
+				A9C450094CBC2BD64733AE5546755705 /* debug.hpp */,
+				35FD401409A60848ACB439E199F6CD7D /* debug_asio.hpp */,
+				96F73B740D2415101F8DE176359B1A9A /* debug_asio_no_tls.hpp */,
+				9EC02F7AFB22CD442282D5078E267BFA /* minimal_client.hpp */,
+				62A70B79D20F15EF943EFF8C524584B4 /* minimal_server.hpp */,
+			);
+			path = config;
+			sourceTree = "<group>";
+		};
+		DF80B643C3103391D2EDCBA2FB1628C5 /* plugins */ = {
+			isa = PBXGroup;
+			children = (
+				5E1834F56038192F445FA3005ED2928A /* hellos */,
+			);
+			path = plugins;
+			sourceTree = "<group>";
+		};
+		E4B988D68F827DD4240CB9134CFAA158 /* roles */ = {
+			isa = PBXGroup;
+			children = (
+				0684E4424C134B7BD597C2156764FD4D /* client_endpoint.hpp */,
+				599B397F7244CD4C80210309F460AB47 /* server_endpoint.hpp */,
+			);
+			path = roles;
+			sourceTree = "<group>";
+		};
+		E6B4BA070D021B18F4CD758A784A2567 /* concurrency */ = {
+			isa = PBXGroup;
+			children = (
+				96B0DCD9B29C14F7558AE5E9FB9E2B8F /* basic.hpp */,
+				460D2EFAD3536F9CD30C65FF54BC9CBC /* none.hpp */,
+			);
+			path = concurrency;
+			sourceTree = "<group>";
+		};
+		EC4AB297E7E1B00F17B026E8D18147C3 /* hellos */ = {
+			isa = PBXGroup;
+			children = (
+				90DC9F68A0FAFA083EE6210A8B85CD24 /* .. */,
+				B1D5B62DC6FA8C8ABF0463E4F5EDD81C /* Pod */,
+				0FB715CF84B7A222D2E394542ABCD99C /* Support Files */,
+			);
+			name = hellos;
+			path = ../.symlinks/plugins/hellos/ios;
+			sourceTree = "<group>";
+		};
+		EF031DAAE297971BA29EA274E5A95B28 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				599EED67EBE91C6F494657635D486963 /* Classes */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		FDCD8E22B09942012C1A4CEFE8290034 /* impl */ = {
+			isa = PBXGroup;
+			children = (
+				D203F5FB1B0EEF9AF29AF0986B7E5F2F /* parser.hpp */,
+				61D8EDD8BF8FBD6EB7B187D8E626735C /* request.hpp */,
+				F69BEF340AF7EE96BE1001CB91DD25E6 /* response.hpp */,
+			);
+			path = impl;
+			sourceTree = "<group>";
+		};
+		FFE2C2659750AF0BD6D3E94217460AE8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0D143E02A4CAFF2CE528FA618F2BE36 /* Flutter.debug.xcconfig */,
+				F09D5EF933C0AAB36786355C8E901C15 /* Flutter.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Pods/Target Support Files/Flutter";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CEAE24DB5ED17C788A17448423FA7BCA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8D48E1E8A711F95F39E2825DA4F7973 /* alloc.hpp in Headers */,
+				335763730D8C60F0BCA657DC4BB5CA7E /* asio.hpp in Headers */,
+				774CC0A46A3748C238D5148A207B6063 /* asio.hpp in Headers */,
+				21F172385A47EA01EDEC1F99613CAED3 /* asio_client.hpp in Headers */,
+				FBD21AC204192BCE589C3403991D2674 /* asio_no_tls.hpp in Headers */,
+				5831C9F02B2289EED2C425F11DA79E64 /* asio_no_tls_client.hpp in Headers */,
+				E6C29FCDB80F081A1DBF0E24C8B23ED6 /* asio_ssl.hpp in Headers */,
+				7CB3B03AEB505BFA9B530F612A3F1706 /* base.hpp in Headers */,
+				9DC008B5EA7FA40C8AA71CE262745A48 /* base.hpp in Headers */,
+				7FD036D0D9D143A16E811AB7C27AEE7C /* base.hpp in Headers */,
+				A378D8DF957478B35932B7713FD5DCEC /* base.hpp in Headers */,
+				4B9C0A0737689D48C38292010AFD48ED /* base.hpp in Headers */,
+				0537CB5BE1E282A1F2D378901B1C71F6 /* base.hpp in Headers */,
+				0D70E5157E50E525BBD4DF0C5C0BD9B6 /* base64.hpp in Headers */,
+				D7D7F4FDB7FB0D77CAD10D58E0B84960 /* basic.hpp in Headers */,
+				AAFAF0CB9D5B267D52982199B2E46665 /* basic.hpp in Headers */,
+				EB793B07AF3AA4676185A2030887744D /* boost_config.hpp in Headers */,
+				F4B3A63B40F10BDAE3E0B3DD1D32D887 /* chrono.hpp in Headers */,
+				F2D6D1A607685B032072F1F93EFFAD5E /* client.hpp in Headers */,
+				28F30D8A3FB90479954E11247DF1AF73 /* client_endpoint.hpp in Headers */,
+				7E14E8B1FEC800BC5B14F1417D1F623E /* close.hpp in Headers */,
+				A08F10A78CF3FA2D8EE734DCF01AB818 /* connection.hpp in Headers */,
+				B13C45CE3F73FD6E17AFA6840938BC39 /* connection.hpp in Headers */,
+				B83C35EBAEE85829024F637149342EC4 /* connection.hpp in Headers */,
+				E7AFE60BF474BFA8D4202369BB545461 /* connection.hpp in Headers */,
+				F58812F3803C566A7556911DB1378885 /* connection.hpp in Headers */,
+				9A392AA8C534F550D0E549AFC77E134B /* connection.hpp in Headers */,
+				BFCFDF9760B1A6D4B129ABB3572F14EA /* connection_base.hpp in Headers */,
+				751F403EE4261069857154121E5F3C3A /* connection_hdl.hpp in Headers */,
+				63E8DDBF3D6AD733C5EB726D2255AF6F /* connection_impl.hpp in Headers */,
+				896F3EE7E77F46A3A68DCD2B6CB2FDFC /* constants.hpp in Headers */,
+				F69A9A1CE71A47B608F2E57FFAB249D3 /* core.hpp in Headers */,
+				B9B32DE04E069FF789C18265413ACAA6 /* core_client.hpp in Headers */,
+				D8E867E9702D8FB0BE7CFF8DC0E7EF46 /* cpp11.hpp in Headers */,
+				7F0944935788AA3106B05C888F940009 /* debug.hpp in Headers */,
+				17803409A24CB0624630DBBE79B16AE8 /* debug_asio.hpp in Headers */,
+				D19C955CDED127F496E16C0ABC3ADA53 /* debug_asio_no_tls.hpp in Headers */,
+				1B99741250401CD1EEFB652BDBA93CC3 /* disabled.hpp in Headers */,
+				8F53FC62F19703671BD469881CC8FB86 /* enabled.hpp in Headers */,
+				D733DD8D7CE82D30F7A25973A359840D /* endpoint.hpp in Headers */,
+				501727819658E950DCFC28EC17E7D3EA /* endpoint.hpp in Headers */,
+				8AABF493AE4490DF514ADBDA46A8F1CB /* endpoint.hpp in Headers */,
+				C9D77A7FBE8D30EBDDDBEB77F999C0D7 /* endpoint.hpp in Headers */,
+				F7C799911B193E8EDA1D84E14F2C87F9 /* endpoint.hpp in Headers */,
+				01E500C1BFFBEDCD4566844178B8B816 /* endpoint.hpp in Headers */,
+				81D97863F99C6616E1C9999334569B51 /* endpoint_base.hpp in Headers */,
+				9853B7A0FB9653E9F66CBD37FCF71583 /* endpoint_impl.hpp in Headers */,
+				72FE5AB727201C0459D7C40E91710615 /* error.hpp in Headers */,
+				2AC352ACF7282C36DCA329751F53C178 /* extension.hpp in Headers */,
+				77B0D0FB3007D11B8C91F48E2D4C9B37 /* frame.hpp in Headers */,
+				BB6302B8572CE0AAD42D3897C743917A /* functional.hpp in Headers */,
+				C3CFB4F4F86A9E9D9C5E6E971537A654 /* hellos-umbrella.h in Headers */,
+				1DE7D1E91C9D5B22539FB272BE48B051 /* HellosPlugin.h in Headers */,
+				EC0A62D26C5F8242532A34AB0D9798AF /* hybi00.hpp in Headers */,
+				3BF7FB4A1369047DE7E3E71EA83EFE7D /* hybi07.hpp in Headers */,
+				16C0E7E1292227CAD24847AD1A8C10CF /* hybi08.hpp in Headers */,
+				F65E0D5456C75A8DBB3280F55789F495 /* hybi13.hpp in Headers */,
+				E2CBEB0680B73F39B8A3C0CFD74EC55E /* levels.hpp in Headers */,
+				A4BE882343B664E7309A95C659260449 /* md5.hpp in Headers */,
+				A409B552D433EE8985712F014FA6D992 /* memory.hpp in Headers */,
+				EC6B84F614A9A2DF182A2D386BB2E50C /* message.hpp in Headers */,
+				2583AF76CE3065092AA961F566AC2DB7 /* minimal_client.hpp in Headers */,
+				DEF68147225FF89640DCBC9027595C5C /* minimal_server.hpp in Headers */,
+				01A60492B6FDF26AFCDEC62F7F000859 /* network.hpp in Headers */,
+				532FE464A96D142C50611DEC8220BCE9 /* none.hpp in Headers */,
+				9A358CE101648FFF5A621EAE41EC0F08 /* none.hpp in Headers */,
+				4B50DE8BF735CD13888753837C9D311B /* none.hpp in Headers */,
+				3F0D82262150AAEB3B2A2CD89DE22594 /* parser.hpp in Headers */,
+				75C35F6A6E2E65DDD9416477A1897F4B /* parser.hpp in Headers */,
+				81E9D10F2682E3148875AA207207ECC1 /* platforms.hpp in Headers */,
+				27F3C7AE0BFEDF8590367F73C569E3F5 /* pool.hpp in Headers */,
+				31000AB7A0996C3C1E3F3AE5B79AB1D6 /* processor.hpp in Headers */,
+				39CD8756452FF2808C04512D2BC8BF53 /* random.hpp in Headers */,
+				6B820376404974CBBB28E27EC990E967 /* random_device.hpp in Headers */,
+				B37728C619B385E89891EFD7042F2D1C /* regex.hpp in Headers */,
+				7CBA0F1A564D22DD5EBADF19F065AB58 /* request.hpp in Headers */,
+				E1550B1C4D2119B2073A73C1C6E51342 /* request.hpp in Headers */,
+				E2D2A4777DB19D285075DE85DDCDC0E9 /* response.hpp in Headers */,
+				63E83451D68D5B945541FADA5513EB82 /* response.hpp in Headers */,
+				19CF11D0DAA1A9E485001A5F7EB1B927 /* server.hpp in Headers */,
+				D2F4D29236602BC752358C0C5C22865E /* server_endpoint.hpp in Headers */,
+				BABC10411774EC8E5D4C68951B36C73A /* sha1.hpp in Headers */,
+				2A22004CE77D92CE6B885950151783C3 /* stdint.hpp in Headers */,
+				32EECDC75BE6587446A63688484B0125 /* stub.hpp in Headers */,
+				B2944A42382A66DE01CF33969FDBF896 /* syslog.hpp in Headers */,
+				15715DC6CD60A51646C82771855E004E /* system_error.hpp in Headers */,
+				8D14C01F41DB438CCB6626BBB6AD4444 /* thread.hpp in Headers */,
+				E577E76B929835389B4B052476DA8DD4 /* time.hpp in Headers */,
+				045004DE1774AB2CA73F5DE5DB454131 /* tls.hpp in Headers */,
+				66CF536D0ABE2EC975AC311EDF12EBCC /* type_traits.hpp in Headers */,
+				D73570BD9652EB2D1CDA7F93D1EF0C45 /* uri.hpp in Headers */,
+				2D5A5A8640F825DC2F22D907D762E66C /* utf8_validator.hpp in Headers */,
+				E9B9FF51684F2723B33E9876B379F530 /* utilities.hpp in Headers */,
+				0AA7FC0198FE7B6EAE5F4D2A2C2A9D66 /* utilities_impl.hpp in Headers */,
+				7749473737272B0055736D0689FACFCE /* version.hpp in Headers */,
+				187AD12A2505119F0037807F /* TestWeb.hpp in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F23126F70F27F917B6BBC1D852E8C4A7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6BC2183EE0967C8D47F655508AEA808C /* hellos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB9C68CC7398E48A931A81E4AF98B34B /* Build configuration list for PBXNativeTarget "hellos" */;
+			buildPhases = (
+				CEAE24DB5ED17C788A17448423FA7BCA /* Headers */,
+				8CA4DE21AC1A3E0619C88E465127C68B /* Sources */,
+				A52D39B891BA09C051FF022B15BDA8E1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF1885025F4CDE42C97CA2AB6C8D693C /* PBXTargetDependency */,
+			);
+			name = hellos;
+			productName = hellos;
+			productReference = 0C60956987D26A5329CFD79DBCAE0BCE /* libhellos.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8B74B458B450D74B75744B87BD747314 /* Pods-Runner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B719543E7F5538753517D4D4D7C5426 /* Build configuration list for PBXNativeTarget "Pods-Runner" */;
+			buildPhases = (
+				F23126F70F27F917B6BBC1D852E8C4A7 /* Headers */,
+				5FB5D77E4C7F18D9AECBD2603A5061F5 /* Sources */,
+				CC1F9E9B1B818764655AE5E211C44332 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5066D8912453238496FEDE493834E6C1 /* PBXTargetDependency */,
+				606EB08E482F82BC445951825B487690 /* PBXTargetDependency */,
+			);
+			name = "Pods-Runner";
+			productName = "Pods-Runner";
+			productReference = 669E8F25E1897672BDB80B7EB784DA24 /* libPods-Runner.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1BB9B75EECE0F68EFA7D04CFA4FA354D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */,
+				6BC2183EE0967C8D47F655508AEA808C /* hellos */,
+				8B74B458B450D74B75744B87BD747314 /* Pods-Runner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FB5D77E4C7F18D9AECBD2603A5061F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B71F964AFA87FE4D1AF042D077564A3 /* Pods-Runner-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CA4DE21AC1A3E0619C88E465127C68B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43C77994CAF416D8850F0AFE374120C9 /* hellos-dummy.m in Sources */,
+				A0805398A74675A3E5F5C96A44F116F7 /* HellosPlugin.m in Sources */,
+				187AD1292505119F0037807F /* TestWeb.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5066D8912453238496FEDE493834E6C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Flutter;
+			target = 1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */;
+			targetProxy = 1AC7EA14E3E1A5C72E7C9EFD89732D2A /* PBXContainerItemProxy */;
+		};
+		606EB08E482F82BC445951825B487690 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = hellos;
+			target = 6BC2183EE0967C8D47F655508AEA808C /* hellos */;
+			targetProxy = 80CF2092C1B19D938693C6DE0D4A9B20 /* PBXContainerItemProxy */;
+		};
+		FF1885025F4CDE42C97CA2AB6C8D693C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Flutter;
+			target = 1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */;
+			targetProxy = F93A94C5853701A9D5BB2ACF027BC3AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10889DCF372E57A8B7CCBC02FB9D973C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5ABAE8C92A5056077FF6F02481D7B6C /* Pods-Runner.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		352472D9C0BF916CA06CD66D7F3465A1 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F09D5EF933C0AAB36786355C8E901C15 /* Flutter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Profile;
+		};
+		47ECB7824E61B37D7960CC549AD5BED6 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D3CEFF2EB434B8A724A1A5FDB6FE608 /* hellos.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/hellos/hellos-prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Private\"",
+					"\"${PODS_ROOT}/Headers/Private/hellos\"",
+					"\"${PODS_ROOT}/Headers/Public\"",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/hellos/hellos.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = hellos;
+				PRODUCT_NAME = hellos;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Profile;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6DB88287FBF0DDC642169D4FE56485F2 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_PROFILE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Profile;
+		};
+		7E8AD2EF1A6356B3FC7E3E1A5B46554D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02079DAD1ABCACA4AF8A87B923A86BBA /* hellos.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/hellos/hellos-prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Private\"",
+					"\"${PODS_ROOT}/Headers/Private/hellos\"",
+					"\"${PODS_ROOT}/Headers/Public\"",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/hellos/hellos.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = hellos;
+				PRODUCT_NAME = hellos;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		825F312F9870436DBD596A4B38FF34F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D3CEFF2EB434B8A724A1A5FDB6FE608 /* hellos.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/hellos/hellos-prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Private\"",
+					"\"${PODS_ROOT}/Headers/Private/hellos\"",
+					"\"${PODS_ROOT}/Headers/Public\"",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/hellos/hellos.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = hellos;
+				PRODUCT_NAME = hellos;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A61138F34FDEA196B7E17C45338192EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F09D5EF933C0AAB36786355C8E901C15 /* Flutter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D865F451DBED2657D8C1644047E1D987 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0D143E02A4CAFF2CE528FA618F2BE36 /* Flutter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6A5EEFB16FF2A54C2467F1810F1E6D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3C9D3CFCF3FA7E3BB8B31D0E3B0DA40 /* Pods-Runner.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F78AD62E0B44086BD038538E9B802CC9 /* Profile */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF0AF5474C02B0E1B187AA8DC4AE41BC /* Pods-Runner.profile.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Profile;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B719543E7F5538753517D4D4D7C5426 /* Build configuration list for PBXNativeTarget "Pods-Runner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6A5EEFB16FF2A54C2467F1810F1E6D3 /* Debug */,
+				F78AD62E0B44086BD038538E9B802CC9 /* Profile */,
+				10889DCF372E57A8B7CCBC02FB9D973C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				6DB88287FBF0DDC642169D4FE56485F2 /* Profile */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94078A06C17E946ADC1F2C06726219E5 /* Build configuration list for PBXAggregateTarget "Flutter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D865F451DBED2657D8C1644047E1D987 /* Debug */,
+				352472D9C0BF916CA06CD66D7F3465A1 /* Profile */,
+				A61138F34FDEA196B7E17C45338192EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB9C68CC7398E48A931A81E4AF98B34B /* Build configuration list for PBXNativeTarget "hellos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E8AD2EF1A6356B3FC7E3E1A5B46554D /* Debug */,
+				47ECB7824E61B37D7960CC549AD5BED6 /* Profile */,
+				825F312F9870436DBD596A4B38FF34F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

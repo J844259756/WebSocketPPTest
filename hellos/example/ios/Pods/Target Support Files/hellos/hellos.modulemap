@@ -1,0 +1,6 @@
+module hellos {
+  umbrella header "hellos-umbrella.h"
+
+  export *
+  module * { export * }
+}

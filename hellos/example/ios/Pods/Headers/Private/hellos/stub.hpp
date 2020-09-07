@@ -1,0 +1,1 @@
+../../../../.symlinks/plugins/hellos/ios/Classes/websocketpp/logger/stub.hpp
